@@ -25,8 +25,8 @@ Installation of Docker/Docker-Compose may be slightly different on other operati
 
 ```bash
 # Pull project
-git clone https://github.com/vulhub/vulhub-en.git
-cd vulhub-en
+git clone https://github.com/vulhub/vulhub.git
+cd vulhub
 
 # Enter a directory of a vulnerability/environment
 cd flask/ssti
