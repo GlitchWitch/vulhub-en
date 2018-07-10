@@ -1,22 +1,17 @@
 # Vulhub - Docker-Compose files for creating vulnerable environments
 
-Vulhub is an open source vulnerability target for the general public. Without extensive knowledge of docker, you can compile and run a vulnerable application image simply by executing two commands.
+Vulhub is an open source set of vulnerable practice environments. Without extensive knowledge of docker, you can compile and run a vulnerable application image simply by executing two commands.
 
 ## Installation
-Install docker/docker-compose on ubuntu 16.04:
+Install docker/docker-compose on ubuntu 18.04:
 
 ```bash
-# Install pip
-curl -s https://bootstrap.pypa.io/get-pip.py | python3
-
-# Install the latest version of docker
-curl -s https://get.docker.com/ | sh
+# Install docker and docker-compose
+apt-get install docker docker-compose
 
 # Start the docker service
 service docker start
 
-# Install docker-compose
-pip install docker-compose
 ```
 
 Installation of Docker/Docker-Compose may be slightly different on other operating systems. Please refer to the [Docker documentation](https://docs.docker.com/) for other installation methods.
