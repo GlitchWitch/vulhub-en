@@ -2,6 +2,12 @@
 
 Vulhub is an open source set of vulnerable practice environments. Without extensive knowledge of docker, you can compile and run a vulnerable application image simply by executing two commands.
 
+## Translation
+![Translation Progress](https://img.shields.io/badge/Translation-5%25-b94278.svg)
+
+This fork is the unofficial English translation of [vulhub/vulhub](https://github.com/vulhub/vulhub). It is maintained by [@GlitchWitchIO](https://github.com/GlitchWitchIO).
+All non-translation related issues should be reported to the original repository.
+
 ## Installation
 Install docker/docker-compose on ubuntu 18.04:
 
@@ -63,10 +69,3 @@ Thanks list：[Contributors List](contributors.md)
 ## License
 
 Vulhub is released under the [GPL-3.0 license](LICENSE).
-
-## Translation
-
-This fork is the unofficial English translation of [vulhub/vulhub](https://github.com/vulhub/vulhub). It is maintained by [@GlitchWitchIO](https://github.com/GlitchWitchIO).
-All non-translation related issues should be reported to the original repository.
-
-Currently the translation is ![Progress](http://progressed.io/bar/1) complete
